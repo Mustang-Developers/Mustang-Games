@@ -8,12 +8,15 @@ body{
     margin: 0;
     padding: 0;
 }
+.game-desc{
+    text-align: center;
+}
 .game-box {
   width: 100%;
-  max-width: 960px;     /* Match this to your Unity player width */
-  aspect-ratio: 16 / 9; /* Change to 4/3 if your game is a square layout */
-  margin: 20px auto;    /* Centers the game container horizontally */
-  background: #000;     /* Hides flashing white layout while game loads */
-  border-radius: 4px;   /* Optional aesthetic curve */
+  max-width: 960px;    
+  aspect-ratio: 19 / 13; 
+  margin: 20px auto;   
+  background: #000;    
+  border-radius: 4px;   
   overflow: hidden;
 }
