@@ -1,0 +1,19 @@
+.titlebar{
+    background-color: orange;
+    display: block;
+    padding:1em;
+}
+body{
+    font-family: 'figtree', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.game-box {
+  width: 100%;
+  max-width: 960px;     /* Match this to your Unity player width */
+  aspect-ratio: 16 / 9; /* Change to 4/3 if your game is a square layout */
+  margin: 20px auto;    /* Centers the game container horizontally */
+  background: #000;     /* Hides flashing white layout while game loads */
+  border-radius: 4px;   /* Optional aesthetic curve */
+  overflow: hidden;
+}
